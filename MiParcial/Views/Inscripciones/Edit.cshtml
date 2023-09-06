@@ -1,0 +1,62 @@
+﻿@model MiParcial.Models.Inscripcione
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+@inject IHttpContextAccessor _session;
+@* Switch de control layout *@
+@{
+    string permisosUser = _session.HttpContext.Session.GetString("permisosUser");
+}
+
+@switch (permisosUser)
+{
+    case "Publico":
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+    case "Estudiante":
+        Layout = "~/Views/Shared/_LayoutEstudiante.cshtml";
+        break;
+    case "Administrador":
+        Layout = "~/Views/Shared/_LayoutAdministrador.cshtml";
+        break;
+    default:
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+}
+
+<h1>Edit</h1>
+
+<h4>Inscripcione</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="InscripcionId" />
+            <div class="form-group">
+                <label asp-for="EstudianteId" class="control-label"></label>
+                <select asp-for="EstudianteId" class="form-control" asp-items="ViewBag.EstudianteId"></select>
+                <span asp-validation-for="EstudianteId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CursoId" class="control-label"></label>
+                <select asp-for="CursoId" class="form-control" asp-items="ViewBag.CursoId"></select>
+                <span asp-validation-for="CursoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiParcial
+build_property.RootNamespace = MiParcial
+build_property.ProjectDir = C:\Users\Fran\Documents\Developer_Projects\AspNET_Proyects\MiParcial\MiParcial_CC101020\MiParcial\MiParcial\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Fran\Documents\Developer_Projects\AspNET_Proyects\MiParcial\MiParcial_CC101020\MiParcial\MiParcial
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Access/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Access/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Cursos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Cursos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Cursos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Cursos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Cursos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Estudiantes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Estudiantes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Estudiantes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Estudiantes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Estudiantes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpYW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Inscripciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Inscripciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Inscripciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Inscripciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Inscripciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcGNpb25lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Profesores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3Jlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Profesores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3Jlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Profesores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3Jlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Profesores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3Jlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Profesores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzb3Jlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Publico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGljb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c5xp5uwrer
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Shared/_LayoutAdministrador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbmlzdHJhZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-lig95cs8u3
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Shared/_LayoutEstudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRFc3R1ZGlhbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-8bdghabdfh
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-igpqi6zbs3
+
+[C:/Users/Fran/Documents/Developer_Projects/AspNET_Proyects/MiParcial/MiParcial_CC101020/MiParcial/MiParcial/Views/Shared/_LayoutPublico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRQdWJsaWNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-hxg5xmhn20

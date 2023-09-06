@@ -1,0 +1,71 @@
+﻿@model MiParcial.Models.User
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@inject IHttpContextAccessor _session;
+@* Switch de control layout *@
+@{
+    string permisosUser = _session.HttpContext.Session.GetString("permisosUser");
+}
+
+@switch (permisosUser)
+{
+    case "Publico":
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+    case "Estudiante":
+        Layout = "~/Views/Shared/_LayoutEstudiante.cshtml";
+        break;
+    case "Administrador":
+        Layout = "~/Views/Shared/_LayoutAdministrador.cshtml";
+        break;
+    default:
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+}
+
+<h1>Edit</h1>
+
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Edad" class="control-label"></label>
+                <input asp-for="Edad" class="form-control" />
+                <span asp-validation-for="Edad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Permiso" class="control-label"></label>
+                <input asp-for="Permiso" class="form-control" />
+                <span asp-validation-for="Permiso" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

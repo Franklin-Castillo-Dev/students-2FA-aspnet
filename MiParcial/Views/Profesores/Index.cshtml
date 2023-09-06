@@ -1,0 +1,63 @@
+﻿@model IEnumerable<MiParcial.Models.Profesore>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@inject IHttpContextAccessor _session;
+@* Switch de control layout *@
+@{
+    string permisosUser = _session.HttpContext.Session.GetString("permisosUser");
+}
+
+@switch (permisosUser)
+{
+    case "Publico":
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+    case "Estudiante":
+        Layout = "~/Views/Shared/_LayoutEstudiante.cshtml";
+        break;
+    case "Administrador":
+        Layout = "~/Views/Shared/_LayoutAdministrador.cshtml";
+        break;
+    default:
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellido)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

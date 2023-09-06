@@ -1,0 +1,74 @@
+﻿@model IEnumerable<MiParcial.Models.Curso>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@inject IHttpContextAccessor _session;
+@* Switch de control layout *@
+@{
+    string permisosUser = _session.HttpContext.Session.GetString("permisosUser");
+}
+
+@switch (permisosUser)
+{
+    case "Publico":
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+    case "Estudiante":
+        Layout = "~/Views/Shared/_LayoutEstudiante.cshtml";
+        break;
+    case "Administrador":
+        Layout = "~/Views/Shared/_LayoutAdministrador.cshtml";
+        break;
+    default:
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreCurso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Profesor)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCurso)
+            </td>
+            <td>
+                    @if (item.Profesor != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.Profesor.Id)
+                        @:-
+                        @Html.DisplayFor(modelItem => item.Profesor.Nombre)
+                        @:
+                        @Html.DisplayFor(modelItem => item.Profesor.Apellido)
+                    }
+                    else
+                    {
+                        @:Profesor no asignado
+                    }
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CursoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CursoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CursoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

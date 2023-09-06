@@ -1,0 +1,78 @@
+﻿@model MiParcial.ViewModel.RegistroViewModel
+
+
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+@* Mostrar el mensaje de error del modelo de estado *@
+@Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+<h1>Registro</h1>
+<form asp-action="Create">
+
+    <h4>Creacion Estudiante</h4>
+    <hr />
+    <div class="row mb-3">
+        <div class="col-md-4">
+        
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>            
+                <div class="form-group">
+                    <label asp-for="Estudiante.Nombre" class="control-label">Nombre Estudiante</label>
+                <input asp-for="Estudiante.Nombre" class="form-control" />
+                <span asp-validation-for="Estudiante.Nombre" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                <label asp-for="Estudiante.FechaNacimiento" class="control-label"></label>
+                <input asp-for="Estudiante.FechaNacimiento" class="form-control" />
+                <span asp-validation-for="Estudiante.FechaNacimiento" class="text-danger"></span>
+                </div>            
+                
+        
+        </div>
+    </div>
+    <h4>Creacion Usuario</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="User.Email" class="control-label"></label>
+                <input asp-for="User.Email" class="form-control" />
+                <span asp-validation-for="User.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User.Edad" class="control-label"></label>
+                <input asp-for="User.Edad" class="form-control" />
+                <span asp-validation-for="User.Edad" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <label asp-for="User.Password" class="control-label"></label>
+                <input asp-for="User.Password" class="form-control" />
+                <span asp-validation-for="User.Password" class="text-danger"></span>
+            </div>                        
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Regresar al Login</a>
+    </div>
+</form>
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@inject IHttpContextAccessor _session;
+@* Switch de control layout *@
+@{
+    string permisosUser = _session.HttpContext.Session.GetString("permisosUser");
+}
+
+@switch (permisosUser)
+{
+    case "Publico":
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+    case "Estudiante":
+        Layout = "~/Views/Shared/_LayoutEstudiante.cshtml";
+        break;
+    case "Administrador":
+        Layout = "~/Views/Shared/_LayoutAdministrador.cshtml";
+        break;
+    default:
+        Layout = "~/Views/Shared/_LayoutPublico.cshtml";
+        break;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>    
+</div>
