@@ -1,0 +1,26 @@
+﻿@model MiParcial.Controllers.PruebasController
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Controlller de Pruebas</h1>
+</div>
+
+@* Mensajes de envios correctos *@
+@if (ViewBag.SuccessMessage != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.SuccessMessage
+    </div>
+}
+
+@* Mostrar el mensaje de error del modelo de estado *@
+@Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+
+<div>
+    <a asp-action="Index">Regresar al Index de Correos</a>
+</div>
