@@ -13,7 +13,7 @@ namespace MiParcial.Controllers
 
         public IActionResult EnviarCorreo()
         {
-            string correoDestinatario = "frankexe2019@gmail.com";
+            string correoDestinatario = "correo@gmail.com";
             string asuntoCorreo = "prueba";
             string cuerpoCorreo = "pruebaaa";
 
